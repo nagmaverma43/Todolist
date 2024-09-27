@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container{
+  max-width: 500px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  min-height: 300px;
+  font-size: 18px;
+  padding-top: 18px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.list{
+  text-align: left;
+}
+
+.list ul{
+  padding-left: 0;
+}
+.list ul li{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-bottom: 2px;
+
+
+}
+.task-item {
+  display: flex;
+  justify-content: space-between; /* Puts the X on the far right */
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.delete-sign {
+  color: rgb(250, 249, 249);
+  cursor: pointer;
+  margin-left: 10px; /* Adds space between the task text and the X */
+}
+
+.delete-sign:hover {
+  color: rgb(124, 119, 119);
+}
+.task-item {
+  display: flex;
+  justify-content: space-between; /* Puts the icons on the far right */
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.edit-sign {
+  color: rgb(224, 238, 224);
+  cursor: pointer;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.edit-sign:hover {
+  color: rgb(66, 66, 66);
+}
